@@ -1,6 +1,7 @@
 # NON-SASS WEBSITE FRAMEWORK
 
 
+
 ## Getting Started
 
 This is a simple website framework, that is run using: 
@@ -109,12 +110,14 @@ npm install del --save-dev
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+To check that it has all been setup correctly. Once you have installed all the dependencies type gulp into the terminal.
+
+This will run all the required dependencies
 
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+To deploy the site run gulp build in terminal and it will create a dist folder inside the root folder where it will save all the production ready code.
 
 
 ## Versioning
@@ -135,7 +138,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* This template was built in part by using the following sites:
-- https://hackernoon.com/how-to-automate-all-the-things-with-gulp-b21a3fc96885
-- https://css-tricks.com/gulp-for-beginners/  
+This template was built in part by using the following sites:
+* https://hackernoon.com/how-to-automate-all-the-things-with-gulp-b21a3fc96885
+* https://css-tricks.com/gulp-for-beginners/  
 
