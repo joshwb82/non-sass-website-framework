@@ -110,14 +110,23 @@ npm install del --save-dev
 
 ## Running the tests
 
-To check that it has all been setup correctly. Once you have installed all the dependencies type gulp into the terminal.
+To check that it has all been setup correctly. Once you have installed all the dependencies type **gulp** into the terminal.
 
-This will run all the required dependencies
+This will run all the required dependencies.
+
+Go to http://localhost:3000/ in your browser, you will now be able to see any changes you make to the files inside src folder.
+
+The gulp command will also create the **tmp** file which will create the development version of the contents of **src** folder.
+
+NOTE
+**ctrl c** will stop the watch and server
+
+If you are uploading the new site to a new repo and you want to remove the **tmp** and **dist** folders from the project you just need to type **gulp clean**  
 
 
 ## Deployment
 
-To deploy the site run gulp build in terminal and it will create a dist folder inside the root folder where it will save all the production ready code.
+To deploy the site run **gulp build** in terminal and it will create a **dist** folder inside the root folder where it will save all the production ready code. all the files will be minified.
 
 
 ## Versioning

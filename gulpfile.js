@@ -8,6 +8,7 @@ var htmlclean = require('gulp-htmlclean');
 var cleanCSS = require('gulp-clean-css');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
+var del = require('del');
 
 
 /* ========================
@@ -135,4 +136,9 @@ gulp.task('inject:dist', ['copy:dist'], function () {
 
 // task to create the build files 
 gulp.task('build', ['inject:dist']);
+
+// task to clean the project by removing the dist and tmp folders
+gulp.task('clean', function () {
+  del([paths.tmp, paths.dist]);
+});
 
