@@ -110,7 +110,11 @@ npm install del --save-dev
 
 ## Running the tests
 
-To check that it has all been setup correctly. Once you have installed all the dependencies type **gulp** into the terminal.
+To check that it has all been setup correctly. 
+
+Type **npm install** which will install all your NPM moduales
+
+Once you have installed all the dependencies type **gulp** into the terminal.
 
 This will run all the required dependencies.
 
